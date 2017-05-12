@@ -1,0 +1,44 @@
+/*
+Theme Name: TUMO workshop 3
+Author: Garegin Davtyan, Artak Kolyan
+Description: Theme for teaching
+Version: 0.0.1
+*/
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+p{
+	line-height: 1.65em;
+}
+
+a:link, a:visited {
+	color: #006ec3; 
+}
+
+.site-header{
+	border-bottom: 1px solid #999;
+}
+
+.site-footer{
+	border-top: 1px solid #999;
+	margin-top: 30px;
+}
+/* General Layout*/
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post{
+	border-bottom: 1px dotted #ddd;
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
