@@ -15,4 +15,8 @@
 				</a>			
 			</h1>
 			<h5><?php bloginfo('description') ?></h5>
+			<nav class="site-nav">
+				<?php wp_nav_menu(array("theme_location"=>"topmenu")); ?>
+			</nav>
+
 		</header>

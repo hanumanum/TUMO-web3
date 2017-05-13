@@ -5,7 +5,6 @@ if( have_posts() ){
 	while( have_posts() ){
 		the_post();
 		?>
-
 		<article class="post">
 			<h2>	
 				<a href="<?php the_permalink();?>">
@@ -14,6 +13,7 @@ if( have_posts() ){
 			</h2>
 
 			<?php the_content(); ?>
+			<?php the_category(); ?>
 		</article>
 
 		<?php
