@@ -1,8 +1,8 @@
 /*
-Theme Name: TUMO workshop 3
-Author: Garegin Davtyan, Artak Kolyan
+Theme Name: TUMO workshop 3 (v 0.1.1)
+Author: Artak Kolyan, Garegin Davtyan 
 Description: Theme for teaching
-Version: 0.0.1
+Version: 0.1.1
 */
 
 body{
@@ -107,5 +107,41 @@ article.post:last-of-type{
 
 .pagespec1{
 	background-color: gray;
+	color:white;
+}
+
+
+.post h2{
+	margin-bottom: 0;
+}
+
+p.post-info{
+	font-size: 87%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited{
+	color: #999;
+}
+
+
+.warn{
+	background-color:red;
+	color:white;
+	padding:5px;
+	border-radius: 5px;
+	margin:15px 0;	
+}
+
+.read-more{
+	display: inline-block;
+	background-color: blue;
+	color:white;
+	padding: 5px 10px;
+	float:right;
+}
+
+.read-more:link, .read-more:visited{
 	color:white;
 }

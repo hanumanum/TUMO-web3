@@ -25,4 +25,15 @@ function get_parent_id(){
 	}
 
 }
+
+function custom_theme_setup(){
+	add_theme_support('post-thumbnails');	
+	add_image_size("xlarge",800,200,array('left','top'));
+	
+}
+
+add_action("after_setup_theme","custom_theme_setup");
+
+
+
 ?>

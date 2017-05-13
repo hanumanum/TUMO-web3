@@ -11,9 +11,30 @@ if( have_posts() ){
 					<?php the_title();?>		
 				</a>
 			</h2>
-
-			<?php the_content(); ?>
-			<?php the_category(); ?>
+			<p class="post-info">
+				<?php the_time("F j, D Y g:i a"); ?>
+				|
+				<a href="<?php echo get_author_posts_url(get_the_author_meta('ID')) ?>">
+				<?php the_author(); ?>
+				</a>
+				|
+				<?php 
+					$cats = get_the_category(); 
+					
+					foreach ($cats as $c) {
+						$link = get_category_link($c->term_id);
+						echo "<a href='$link'>";
+						echo $c->name;
+						echo "</a>,";
+					}
+				?>
+			</p>
+			
+			<?php the_post_thumbnail("xlarge"); ?>
+			<?php the_excerpt(); ?>
+			<a class="read-more" href="<?php the_permalink(); ?>">
+			Read more ->
+			</a>
 		</article>
 
 		<?php
