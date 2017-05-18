@@ -67,7 +67,9 @@ if( have_posts() ){
 						echo $c->name;
 						echo "</a>,";
 					}
+				
 				?>
+
 			</p>
 
 			<?php the_content(); ?>

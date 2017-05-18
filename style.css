@@ -100,9 +100,10 @@ article.post:last-of-type{
 }
 
 .single-text{
-	background-color: green;
 	padding:5px 15px;
-	color:white;
+	color:black;
+	border-left: 3px solid black;
+	margin-top:25px;
 }
 
 .pagespec1{
@@ -127,11 +128,13 @@ p.post-info a:visited{
 
 
 .warn{
-	background-color:red;
-	color:white;
-	padding:5px;
-	border-radius: 5px;
-	margin:15px 0;	
+	background-color: rgb(203, 67, 53);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+    width: 101px;
+    text-align: center;
 }
 
 .read-more{
@@ -174,7 +177,7 @@ div.hd-search #s{
 }
 
 /* Sidebar column*/
-.sidebar-column{
+.sidbar-column{
 	width: 30%;
 	float: right;
 }
@@ -185,4 +188,10 @@ div.hd-search #s{
 	float: left;
 	padding-right: 40px;
 	box-sizing: border-box;
+}
+
+.welcome{
+	border:1px solid gray;
+	box-shadow:15px 15px 15px gray;
+	padding:20px;
 }

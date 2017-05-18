@@ -1,5 +1,11 @@
 <?php 
 get_header();
+?>
+<div class="warn">
+Attention: this is from page.php
+</div>
+
+<?php
 
 if( have_posts() ){
 	while( have_posts() ){

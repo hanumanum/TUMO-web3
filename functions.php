@@ -48,4 +48,26 @@ function widgetsInit(){
 }
 add_action("widgets_init","widgetsInit");
 
+
+function theAuthorLastTreePost(){
+	global $authordata;
+
+	$author_3_posts=new WP_Query(array("author"=>$authordata->ID,
+								  "posts_per_page"=>3
+							));
+
+	if($author_3_posts->have_posts()){
+		echo "<h2>Author Posts</h2>";
+		echo "<ul>";	
+		while ($author_3_posts->have_posts()) {
+				$author_3_posts->the_post();
+			?>
+				<li>
+					<a href='<?php the_permalink(); ?>'><?php the_title(); ?></a>
+				</li>
+			<?php
+		}
+	}
+
+}
 ?>
