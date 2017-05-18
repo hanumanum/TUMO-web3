@@ -16,6 +16,8 @@ https://github.com/hanumanum/TUMO-web3/archive/48797efbc3c4271b4de3f29f0536c736d
 ## End of V Lesson
 https://github.com/hanumanum/TUMO-web3/archive/93e784926df26078d7753179f2366ac97bca8825.zip
 
+## End of VI Lesson
+https://github.com/hanumanum/TUMO-web3/archive/6013bff2b60ab00949e6efbfe3be559808fad3ad.zip
 
 
 
