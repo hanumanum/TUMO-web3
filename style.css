@@ -145,3 +145,44 @@ p.post-info a:visited{
 .read-more:link, .read-more:visited{
 	color:white;
 }
+
+
+/* Search */
+div.hd-search{
+	float: right;
+}
+
+div.hd-search #searchsubmit{
+	background-color: #006ec3;
+	color: #FFF;
+	padding: 5px 14px;
+	border: none;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+div.hd-search #s{
+	vertical-align: top;
+	padding: 3px 0;
+}
+
+
+/* Main column*/
+.main-column {
+	width: 66%;
+	float: left;
+}
+
+/* Sidebar column*/
+.sidebar-column{
+	width: 30%;
+	float: right;
+}
+
+/* Footer Widget Area */
+.footer-widget-area{
+	width: 25%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}

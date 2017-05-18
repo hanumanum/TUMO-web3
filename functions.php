@@ -36,4 +36,16 @@ add_action("after_setup_theme","custom_theme_setup");
 
 
 
+function widgetsInit(){
+	register_sidebar(array("id"=>"firstsidebar"
+						  	,"name"=>"Կողմնամաս 1"
+						  	,"before_widget"=>"<div class='widget-item'>"
+						  	,"after_widget"=>"</div>"
+						  	,"before_title"=>"<h1 class='my_class_name'>"
+						  	,"after_title"=>"</h1>"));
+	register_sidebar(array("id"=>"secondsidebar","name"=>"Կողմնամաս 2"));
+
+}
+add_action("widgets_init","widgetsInit");
+
 ?>

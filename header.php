@@ -18,5 +18,7 @@
 			<nav class="site-nav">
 				<?php wp_nav_menu(array("theme_location"=>"topmenu")); ?>
 			</nav>
-
+			<div class="hd-search">
+				<?php get_search_form() ?>
+			</div>
 		</header>
